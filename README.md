@@ -5,7 +5,7 @@ WindowsGSM plugin for [Eco](https://store.steampowered.com/app/382310/Eco/) Dedi
 [WindowsGSM](https://github.com/WindowsGSM/WindowsGSM) = 1.21.0
 
 ## Installation
-Download the latest release of the Eco Dedicated Server from here.
+Download the latest release of the Eco Dedicated Server from [here](https://github.com/bravoman21/WindowsGSM.Eco/blob/master/WindowsGSM.Eco.zip).
 
 Once you have downloaded the .zip folder, you may either extract and move the Eco.cs folder into your WindowsGSM plugins folder or import the `<WindowsGSM.Eco.zip>` file directly with WindowsGSM.
 
