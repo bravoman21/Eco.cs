@@ -16,7 +16,7 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.Eco", // WindowsGSM.XXXX
             author = "BravoMan21",
             description = "WindowsGSM plugin for supporting Eco Dedicated Server",
-            version = "1.01",
+            version = "1.02",
             url = "https://github.com/bravoman21/WindowsGSM.Eco", // Github repository link (Best practice)
             color = "#086203" // Color Hex
         };
@@ -35,7 +35,7 @@ namespace WindowsGSM.Plugins
         // - Game server Fixed variables
         public override string StartPath => "EcoServer.exe"; // Game server start path. For Eco it is called EcoServer.exe
         public string FullName = "Eco Server"; // Game server FullName
-        public bool AllowsEmbedConsole = true;  // Does this server support output redirect?
+        public bool AllowsEmbedConsole = false;  // Does this server support output redirect?
         public int PortIncrements = 2; // This tells WindowsGSM how many ports should skip after installation
         public object QueryMethod = new A2S(); // Query method should be use on current server type. Accepted value: null or new A2S() or new FIVEM() or new UT3()
 
